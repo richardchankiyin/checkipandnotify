@@ -15,5 +15,5 @@ Explanation
 -----------
 1. _contentfile will be generated to show you once a new ip is being detected
 2. _oip.log will be generated to keep the original ip for comparison in every call
-3. \_run_log_<YYYYMMDD>.out will be generated as log file for the run throughout that date
+3. _run_log_YYYYMMDD.out will be generated as log file for the run throughout that date
 
