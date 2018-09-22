@@ -11,6 +11,6 @@ echo "$dir/checkandnotify.sh \"$dir\" \"$wh\"" > $resultcommand
 
 chmod 755 $resultcommand
 
-echo "* * * * * $dir/_checkandnotify.sh" > $resultcron
+echo "* * * * * $dir/$resultcommand" > $resultcron
 
 

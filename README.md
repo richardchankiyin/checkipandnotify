@@ -9,7 +9,10 @@ Steps
 3. run ./gencheckandnotifycommand.sh [slack wh url]
 4. examine the following files: _checkandnotify.sh and _checkandnotify.sh.cron are found
 5. from _checkandnotify.sh.cron please extract the content and put it under crontab
-6. deployment done
+6. [optional] -- run ./genhousekeep.sh 
+7. [optional] -- examine the following files: _housekeep.sh and _housekeep.sh.cron
+8. [optional] -- from _housekeep.sh.cron please extract the content and put it under crontab
+9. deployment done
 
 Explanation
 -----------
