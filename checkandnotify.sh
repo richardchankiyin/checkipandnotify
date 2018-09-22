@@ -29,10 +29,10 @@ if [ "$oldip" == "$curip" ]
 then
    echo "same ip" >> $logfile
 else
+   #write oip
+   echo $curip > $oldipfile
+   #prepare contentfile 
    echo "new ip: $curip" > $contentfile
    $dir/push2slack_wh.sh $wh $contentfile  >> $logfile  2>> $logfile 
 fi
-
-#write oip
-echo $curip > $oldipfile
 
